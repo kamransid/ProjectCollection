@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CGI Innovation</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+</head>
+<body>
+
+	<header class="container center-align">
+		<h1>ziggoOrangeWiki</h1>
+	</header>
+
+	<div class="container">
+		{% block content %}
+		{% endblock %}
+		<br>
+		<div class="center-align">
+			<!-- <input type="submit" class="btn"  name="submit" value="Admin Login"> -->
+
+			<a href="/admin" class="btn">Admin Login</a>
+		</div>
+	</div>
+</body>
+</html>
